@@ -22,7 +22,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/statement")
 @RequiredArgsConstructor
-public class DealController {
+public class StatementController {
     private final StatementService service;
 
     @Operation(summary = "Получить предварительные предложения по кредиту",
